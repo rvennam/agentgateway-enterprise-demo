@@ -1,0 +1,9 @@
+# Local machine config — not shared (contains local paths / permission allowlist)
+.claude/settings.local.json
+
+# Credentials — sourced from the home dir, never committed
+*.env
+.env
+
+# OS cruft
+.DS_Store
